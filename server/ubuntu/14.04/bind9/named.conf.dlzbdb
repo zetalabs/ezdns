@@ -1,0 +1,3 @@
+dlz "bdbhpt zone" {
+   database "bdbhpt T /var/cache/bind/dlz dnsdata.db";
+};

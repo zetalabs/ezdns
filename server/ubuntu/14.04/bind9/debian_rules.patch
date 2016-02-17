@@ -1,0 +1,10 @@
+--- bind9-9.9.5.dfsg/debian/rules	2016-02-16 09:38:29.000000000 +0800
++++ bind9-9.9.5.dfsg/debian/rules	2015-12-10 00:18:53.214476527 +0800
+@@ -57,6 +57,7 @@
+ 		--enable-ipv6 \
+ 		--enable-rrl \
+ 		--enable-filter-aaaa \
++		--with-dlz-bdb \
+ 		$(EXTRA_FEATURES)
+ 
+ 	touch $@
