@@ -1,6 +1,6 @@
 # ezdns
 
-Steps to add new subdomain reserve
+Steps to add new subdomain in nameserver
 
 1. edit /etc/bind/named.conf.local
 add zone configuration as following
